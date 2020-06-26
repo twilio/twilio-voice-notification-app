@@ -20,7 +20,7 @@ const locations = {
 export const steps: Array<StepItem> = [
   {
     key: StepType.Configure,
-    label: 'Configure Broadcast',
+    label: 'Configure Notification',
     icon: <SettingsIcon />,
     location: locations.configure,
     component: Configure,

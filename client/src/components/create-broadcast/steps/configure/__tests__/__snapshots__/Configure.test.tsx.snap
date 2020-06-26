@@ -163,7 +163,7 @@ exports[`Configure renders the page 1`] = `
           for="message"
           id="message-label"
         >
-          Broadcast Message
+          Message
         </label>
         <div
           class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
@@ -186,7 +186,7 @@ exports[`Configure renders the page 1`] = `
               class="PrivateNotchedOutline-legendLabelled-126 PrivateNotchedOutline-legendNotched-127"
             >
               <span>
-                Broadcast Message
+                Message
               </span>
             </legend>
           </fieldset>

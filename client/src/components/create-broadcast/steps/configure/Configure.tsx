@@ -175,7 +175,7 @@ export const Configure = ({ step, data }: StepProps) => {
         <TextField
           id="message"
           fullWidth
-          label="Broadcast Message"
+          label="Message"
           placeholder="Message"
           variant="outlined"
           margin="normal"

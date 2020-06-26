@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`usePagination empty array 1`] = `
+Object {
+  "current": Object {
+    "handleChangePage": [Function],
+    "handleChangeRowsPerPage": [Function],
+    "page": 0,
+    "paginatedData": Array [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+    ],
+    "rowsPerPage": 10,
+    "rowsPerPageOptions": Array [
+      10,
+      25,
+    ],
+  },
+  "error": undefined,
+}
+`;
+
+exports[`usePagination handleChangePage 1`] = `
+Object {
+  "handleChangePage": [Function],
+  "handleChangeRowsPerPage": [Function],
+  "page": 2,
+  "paginatedData": Array [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+  ],
+  "rowsPerPage": 10,
+  "rowsPerPageOptions": Array [
+    10,
+    25,
+  ],
+}
+`;
+
+exports[`usePagination handleChangeRowsPerPage 1`] = `
+Object {
+  "handleChangePage": [Function],
+  "handleChangeRowsPerPage": [Function],
+  "page": 0,
+  "paginatedData": Array [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+  ],
+  "rowsPerPage": 25,
+  "rowsPerPageOptions": Array [
+    10,
+    25,
+  ],
+}
+`;

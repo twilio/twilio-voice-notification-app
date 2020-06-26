@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recipients list > Example renders the page 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-5 makeStyles-root-1"
+  >
+    <p
+      class="MuiTypography-root makeStyles-title-3 MuiTypography-body1"
+    >
+      Example Recipient List
+    </p>
+    <div
+      class="MuiBox-root MuiBox-root-36"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Text file should contain one phone number per line, and each phone number should be in international format.
+      </p>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-37 makeStyles-numbersBox-2"
+    >
+      <ul
+        class="MuiList-root MuiList-dense MuiList-padding"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+        >
+          +15105436767
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+        >
+          +15107656399
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+        >
+          +61432286113
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

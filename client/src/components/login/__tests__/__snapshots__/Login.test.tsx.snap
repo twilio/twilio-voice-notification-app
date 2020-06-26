@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login renders the page 1`] = `
+<div>
+  <h1
+    class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom"
+  >
+    Send notifications to your customers over the phone
+  </h1>
+  <p
+    class="MuiTypography-root MuiTypography-body1"
+  >
+    In order to use the app you need to authenticate. Please login using the passcode generated during installation and app deployment
+  </p>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+    >
+      <form
+        autocomplete="off"
+        class="makeStyles-root-1"
+        novalidate=""
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+            data-shrink="false"
+            for="passcode"
+            id="passcode-label"
+          >
+            Enter your passcode
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              data-testid="passcode-input"
+              id="passcode"
+              type="text"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-194 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="PrivateNotchedOutline-legendLabelled-196"
+              >
+                <span>
+                  Enter your passcode
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-199"
+        >
+          <div
+            class="MuiPaper-root MuiAlert-root MuiAlert-standardInfo MuiPaper-elevation0"
+            role="alert"
+          >
+            <div
+              class="MuiAlert-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20, 12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10, 10 0 0,0 12,2M11,17H13V11H11V17Z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiAlert-message"
+            >
+              <strong>
+                Reminder 
+              </strong>
+              - Please note you have agreed to the
+               
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="https://www.twilio.com/legal/tos"
+              >
+                Twilio Terms and Service
+              </a>
+               
+              and
+               
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="https://www.twilio.com/legal/aup"
+              >
+                Twilio Acceptable Use Policy
+              </a>
+              , as incorporated therein.
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-259"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+            data-testid="login-button"
+            disabled=""
+            tabindex="-1"
+            type="submit"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Login
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

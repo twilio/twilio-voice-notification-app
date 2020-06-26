@@ -1,0 +1,1 @@
+export { BroadcastDetail } from './BroadcastDetail';

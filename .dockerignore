@@ -1,0 +1,16 @@
+.circleci
+.github
+reports
+LICENSE
+Procfile
+README.md
+app.json
+.env.example
+server/coverage
+server/dist
+build
+node_modules
+server/node_modules
+e2e/node_modules
+e2e/videos
+e2e/results

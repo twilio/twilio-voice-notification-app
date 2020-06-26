@@ -1,0 +1,36 @@
+{
+  "name": "Twilio Voice Notifications Application",
+  "description": "This reference app built in ReactJS for the Web demonstrates how to leverage Twilio Programmable Voice and Twilio SDKs to create a voice notifications system to make calls to your customers to deliver time-sensitive messages.",
+  "repository": "https://github.com/twilio/twilio-voice-notification-app",
+  "logo": "https://cdn.worldvectorlogo.com/logos/twilio.svg",
+  "image": "heroku/nodejs",
+  "env": {
+    "PASSCODE": {
+      "description": "Enter a passcode to protect your Voice Notification App. This will be required to use the application, keep it somewhere safe and secure.",
+      "required": true
+    },
+    "ACCOUNT_SID": {
+      "description": "Enter your Twilio Account Sid. This information can be found on your Account Dashboard in the Twilio Console.",
+      "required": true
+    },
+    "AUTH_TOKEN": {
+      "description": "Enter your Twilio Auth Token. This information can be found on your Account Dashboard in the Twilio Console.",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "keywords": [
+    "node",
+    "express",
+    "static",
+    "twilio",
+    "notifications",
+    "reactjs",
+    "voice",
+    "sdk"
+  ]
+}

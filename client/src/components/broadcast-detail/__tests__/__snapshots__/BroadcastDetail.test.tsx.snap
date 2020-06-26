@@ -1,0 +1,874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BroadcastDetail broadcast recipients request error is handled correctly 1`] = `
+<div>
+  <nav
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+        href="/broadcasts"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Back
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      style="text-align: right;"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Cancel notification
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </nav>
+  <div
+    class="MuiBox-root MuiBox-root-654"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-655 WithStyles(ForwardRef(Card))-root-656 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-736"
+      >
+        <div
+          class="MuiPaper-root MuiAlert-root MuiAlert-standardError MuiPaper-elevation0"
+          role="alert"
+          style="align-items: center;"
+        >
+          <div
+            class="MuiAlert-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+          </div>
+          <div
+            class="MuiAlert-message"
+          >
+            Sorry, we could not retrieve your notification data this time.
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-686"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          Notification Report
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-717"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Notification Name
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-718"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                Broadcast sample
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              From Number
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-719"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                +12023187895
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Notification Message
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-720"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                Ahoy there!
+              </p>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Notification Status
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-721"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                -
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-722"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Start time
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-723"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                6/3/2020, 3:28:04 PM
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              End time
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-724"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                6/22/2020, 8:05:50 AM
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Recipients
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-725"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                 Total Recipients
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BroadcastDetail broadcast request error is handled correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiAlert-root MuiAlert-standardError MuiPaper-elevation0"
+    role="alert"
+    style="align-items: center;"
+  >
+    <div
+      class="MuiAlert-icon"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+    </div>
+    <div
+      class="MuiAlert-message"
+    >
+      Sorry, something failed and we could not cancel the notification.
+    </div>
+    <div
+      class="MuiAlert-action"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-447"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Reload
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BroadcastDetail data is rendered correctly 1`] = `
+<div>
+  <nav
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+        href="/broadcasts"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Back
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      style="text-align: right;"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Cancel notification
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </nav>
+  <div
+    class="MuiBox-root MuiBox-root-179"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-180 WithStyles(ForwardRef(Card))-root-181 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-211"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          Notification Report
+        </h1>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-242"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Notification Name
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-243"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                Broadcast sample
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              From Number
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-244"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                +12023187895
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Notification Message
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-245"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                Ahoy there!
+              </p>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Notification Status
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-246"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                In progress (20%)
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Summary
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-304"
+            >
+              <div
+                class="MuiPaper-root MuiAlert-root MuiAlert-standardInfo MuiPaper-elevation0"
+                role="alert"
+              >
+                <div
+                  class="MuiAlert-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20, 12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10, 10 0 0,0 12,2M11,17H13V11H11V17Z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiAlert-message"
+                >
+                  This is a summary of the calls results used to send your voice notification. To learn more about call status and definitions visit
+                   
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="https://www.twilio.com/docs/voice/api/call-resource#call-status-values"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    Twilio Call Resource documentation
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="MuiList-root MuiList-dense MuiList-padding"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    14 - queued
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    0 - initiated
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    2 - ringing
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    0 - in-progress
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    2 - completed
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    1 - busy
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    0 - no-answer
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    0 - canceled
+                  </div>
+                </div>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-dense MuiListItem-gutters"
+                style="padding: 0px;"
+              >
+                <div
+                  class="MuiListItemText-root MuiListItemText-dense"
+                  style="margin: 0px;"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-subtitle1"
+                  >
+                    1 - failed
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-247"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Start time
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-248"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                6/3/2020, 3:28:04 PM
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              End time
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-249"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                -
+              </h6>
+            </div>
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+            >
+              Recipients
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-250"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1"
+              >
+                20
+                 Total Recipients
+              </h6>
+            </div>
+            <div
+              class="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+              style="margin-bottom: 4px;"
+            >
+              <table
+                aria-label="Notification recipients calls details and statuses"
+                class="MuiTable-root"
+                data-testid="recipients-table"
+              >
+                <thead
+                  class="MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+                      scope="col"
+                    >
+                      Number
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+                      scope="col"
+                    >
+                      Status
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root"
+                >
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015650934
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      completed
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015723115
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      completed
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015711563
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      busy
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015552572
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      completed
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015581526
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      in-progress
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015553700
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      in-progress
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015667027
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      ringing
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015623466
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      queued
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015598376
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      queued
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +12015612792
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      queued
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="MuiTablePagination-root"
+              data-testid="paginator"
+            >
+              <div
+                class="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters"
+              >
+                <div
+                  class="MuiTablePagination-spacer"
+                />
+                <p
+                  class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+                >
+                  1-10 of 20
+                </p>
+                <div
+                  class="MuiTablePagination-actions"
+                >
+                  <button
+                    aria-label="Previous page"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+                    disabled=""
+                    tabindex="-1"
+                    title="Previous page"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <button
+                    aria-label="Next page"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+                    tabindex="0"
+                    title="Next page"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

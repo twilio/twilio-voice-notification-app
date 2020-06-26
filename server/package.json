@@ -1,0 +1,78 @@
+{
+  "name": "twilio-voice-notification-server",
+  "version": "0.0.1",
+  "author": "twilio",
+  "scripts": {
+    "prestart": "rimraf dist",
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"e2e/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "cross-env NODE_ENV=production node dist/src/main",
+    "lint": "eslint \"{src,apps,libs,e2e}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
+  },
+  "dependencies": {
+    "@nestjs/cli": "^7.0.0",
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/config": "^0.5.0",
+    "@nestjs/core": "^7.0.0",
+    "@nestjs/platform-express": "^7.0.0",
+    "@nestjs/platform-socket.io": "^7.1.0",
+    "@nestjs/schematics": "^7.0.0",
+    "@nestjs/sequelize": "^0.1.0",
+    "@nestjs/serve-static": "^2.1.1",
+    "@nestjs/websockets": "^7.1.0",
+    "cross-env": "^7.0.2",
+    "pg": "^8.2.1",
+    "pg-connection-string": "^2.2.3",
+    "pg-hstore": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4",
+    "sequelize": "^5.21.10",
+    "sequelize-typescript": "^1.1.0",
+    "sqlite3": "^4.2.0",
+    "twilio": "^3.43.1",
+    "url": "^0.11.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^7.0.0",
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.1",
+    "@types/sequelize": "^4.28.9",
+    "@types/supertest": "^2.0.8",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "25.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}

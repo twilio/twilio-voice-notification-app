@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumbersTable renders the page 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-4 MuiTableContainer-root makeStyles-tableContainer-1"
+  >
+    <table
+      class="MuiTable-root MuiTable-stickyHeader"
+    >
+      <thead
+        class="MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-13 MuiTableCell-sizeSmall MuiTableCell-stickyHeader"
+            scope="col"
+          >
+            Line
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-13 MuiTableCell-sizeSmall MuiTableCell-stickyHeader"
+            scope="col"
+          >
+            Numbers
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-13 MuiTableCell-sizeSmall MuiTableCell-stickyHeader"
+            scope="col"
+          >
+            Issue
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            1
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            +14081234567
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            2
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            +14081234567
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            Duplicate Number
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            3
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            asasd
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+          >
+            Invalid Number
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    class="MuiTablePagination-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters"
+    >
+      <div
+        class="MuiTablePagination-spacer"
+      />
+      <p
+        class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+      >
+        1-3 of 3
+      </p>
+      <div
+        class="MuiTablePagination-actions"
+      >
+        <button
+          aria-label="Previous page"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+          disabled=""
+          tabindex="-1"
+          title="Previous page"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+              />
+            </svg>
+          </span>
+        </button>
+        <button
+          aria-label="Next page"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+          disabled=""
+          tabindex="-1"
+          title="Next page"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

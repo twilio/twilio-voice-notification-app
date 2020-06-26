@@ -1,0 +1,31 @@
+# docker-compose.yml
+version: "3"
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/server/node_modules
+    ports:
+      - 3000:3000
+    depends_on:
+      - postgres
+    environment:
+      - DATABASE_URL=postgres://user:pass@postgres:5432/db
+
+  postgres:
+    image: postgres:10.4
+    restart: always
+    volumes:
+      - database:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db
+
+volumes:
+  database:

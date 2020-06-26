@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "baseUrl": "./node_modules",
+    "target": "es5",
+    "lib": ["es5", "dom", "esnext"],
+    "module": "commonjs",
+    "types": ["cypress"],
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  },
+  "compileOnSave": false,
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

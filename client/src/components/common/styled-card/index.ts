@@ -1,0 +1,1 @@
+export { StyledCard } from './StyledCard';

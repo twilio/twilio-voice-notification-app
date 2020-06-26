@@ -1,0 +1,664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BroadcastList when request is successful broadcast list is rendered correctly 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-138 WithStyles(ForwardRef(Card))-root-139 makeStyles-root-134 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-170"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-171"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          My Voice Notifications
+        </h1>
+        <p
+          class="MuiTypography-root makeStyles-subtitle-135 MuiTypography-body1"
+        >
+          Review all of your voice notifications and access reports
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-202"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-createButton-137 MuiButton-containedPrimary"
+          href="/create"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+            </span>
+            New Voice Notification
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-244"
+      data-testid="broadcast-list-loader"
+    >
+      <div
+        class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BroadcastList when request is successful broadcast list is rendered correctly 2`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-138 WithStyles(ForwardRef(Card))-root-139 makeStyles-root-134 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-170"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-171"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          My Voice Notifications
+        </h1>
+        <p
+          class="MuiTypography-root makeStyles-subtitle-135 MuiTypography-body1"
+        >
+          Review all of your voice notifications and access reports
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-202"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-createButton-137 MuiButton-containedPrimary"
+          href="/create"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+            </span>
+            New Voice Notification
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-listItem-267 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-270"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-271"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-272"
+          >
+            John Doe
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            5/4/2020
+             ·
+             
+            <span
+              class="makeStyles-notificationStatus-268 makeStyles-notificationStatus-269"
+            >
+              in-progress
+            </span>
+          </span>
+        </div>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          href="/broadcasts/1"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            VIEW REPORT
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-listItem-267 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-274"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-275"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-276"
+          >
+            Jane Doe
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            1/1/2020
+             ·
+             
+            <span
+              class="makeStyles-notificationStatus-268 makeStyles-notificationStatus-273"
+            >
+              in-progress
+            </span>
+          </span>
+        </div>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          href="/broadcasts/2"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            VIEW REPORT
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-listItem-267 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-278"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-279"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-280"
+          >
+            Foo Bar
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            11/11/2019
+             ·
+             
+            <span
+              class="makeStyles-notificationStatus-268 makeStyles-notificationStatus-277"
+            >
+              in-progress
+            </span>
+          </span>
+        </div>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          href="/broadcasts/3"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            VIEW REPORT
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-281"
+    >
+      <nav
+        aria-label="pagination navigation"
+        class="MuiPagination-root"
+      >
+        <ul
+          class="MuiPagination-ul"
+        >
+          <li>
+            <button
+              aria-label="Go to previous page"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiPaginationItem-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button
+              aria-current="true"
+              aria-label="page 1"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-selected"
+              tabindex="0"
+              type="button"
+            >
+              1
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to page 2"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              2
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to page 3"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              3
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to page 4"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              4
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to next page"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiPaginationItem-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BroadcastList when request is successful broadcast list is rendered correctly 3`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-138 WithStyles(ForwardRef(Card))-root-139 makeStyles-root-134 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-170"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-171"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          My Voice Notifications
+        </h1>
+        <p
+          class="MuiTypography-root makeStyles-subtitle-135 MuiTypography-body1"
+        >
+          Review all of your voice notifications and access reports
+        </p>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-202"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-createButton-137 MuiButton-containedPrimary"
+          href="/create"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+            </span>
+            New Voice Notification
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-listItem-267 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-270"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-271"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-272"
+          >
+            John Doe
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            5/4/2020
+             ·
+             
+            <span
+              class="makeStyles-notificationStatus-268 makeStyles-notificationStatus-269"
+            >
+              in-progress
+            </span>
+          </span>
+        </div>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          href="/broadcasts/1"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            VIEW REPORT
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-listItem-267 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-274"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-275"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-276"
+          >
+            Jane Doe
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            1/1/2020
+             ·
+             
+            <span
+              class="makeStyles-notificationStatus-268 makeStyles-notificationStatus-273"
+            >
+              in-progress
+            </span>
+          </span>
+        </div>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          href="/broadcasts/2"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            VIEW REPORT
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root makeStyles-listItem-267 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-278"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-279"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-280"
+          >
+            Foo Bar
+          </div>
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+          >
+            11/11/2019
+             ·
+             
+            <span
+              class="makeStyles-notificationStatus-268 makeStyles-notificationStatus-277"
+            >
+              in-progress
+            </span>
+          </span>
+        </div>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          href="/broadcasts/3"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            VIEW REPORT
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-281"
+    >
+      <nav
+        aria-label="pagination navigation"
+        class="MuiPagination-root"
+      >
+        <ul
+          class="MuiPagination-ul"
+        >
+          <li>
+            <button
+              aria-label="Go to previous page"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiPaginationItem-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button
+              aria-current="true"
+              aria-label="page 1"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary Mui-selected"
+              tabindex="0"
+              type="button"
+            >
+              1
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to page 2"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              2
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to page 3"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              3
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to page 4"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              4
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              aria-label="Go to next page"
+              class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textPrimary"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiPaginationItem-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

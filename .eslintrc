@@ -1,0 +1,23 @@
+// .eslintrc
+{
+  "plugins": ["prettier", "@typescript-eslint", "import"],
+  "extends": ["react-app", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "createDefaultProgram": true
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    }
+  },
+  "rules": {
+    "import/no-unresolved": "error"
+  }
+}

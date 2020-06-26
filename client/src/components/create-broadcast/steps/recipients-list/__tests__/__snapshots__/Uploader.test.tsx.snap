@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recipients list > Uploader renders the page 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-4 makeStyles-uploader-1"
+    data-testid="drop-zone"
+    tabindex="0"
+  >
+    <input
+      autocomplete="off"
+      multiple=""
+      style="display: none;"
+      tabindex="-1"
+      type="file"
+    />
+    <div
+      class="MuiBox-root MuiBox-root-5 makeStyles-uploaderItems-2"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter"
+      >
+        Drag & Drop Recipient File (.txt)
+      </h5>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-36 makeStyles-uploaderItems-2"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter"
+      >
+        or
+      </h6>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-37 makeStyles-uploaderItems-2"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Select File
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-70 makeStyles-uploaderItems-2"
+    />
+  </div>
+</DocumentFragment>
+`;

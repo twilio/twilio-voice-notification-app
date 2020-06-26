@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Review render the page 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-5 WithStyles(ForwardRef(Card))-root-6 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-37"
+    >
+      <h2
+        class="MuiTypography-root MuiTypography-h4"
+      >
+        3. Review
+      </h2>
+      <div
+        class="MuiBox-root MuiBox-root-68"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Your voice notification is almost done. Please review it and press “Send Notification” to start sending to the recipient list.
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root WithStyles(ForwardRef(Card))-root-5 WithStyles(ForwardRef(Card))-root-69 makeStyles-cardReview-4 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+          >
+            <dl
+              class="MuiBox-root MuiBox-root-173"
+            >
+              <h2
+                class="MuiTypography-root MuiTypography-subtitle2"
+              >
+                Notification Name
+              </h2>
+              <div
+                class="MuiBox-root MuiBox-root-174"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test name
+                </h6>
+              </div>
+              <h2
+                class="MuiTypography-root MuiTypography-subtitle2"
+              >
+                From number
+              </h2>
+              <div
+                class="MuiBox-root MuiBox-root-175"
+              >
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  +34666222333
+                </h6>
+              </div>
+              <h2
+                class="MuiTypography-root MuiTypography-subtitle2"
+              >
+                Notification Message
+              </h2>
+              <div
+                class="MuiBox-root MuiBox-root-176"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2"
+                >
+                  Test message
+                </p>
+              </div>
+            </dl>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-subtitle2"
+              style="margin-bottom: 15px;"
+            >
+              Recipients
+            </h2>
+            <div
+              class="MuiBox-root MuiBox-root-179 MuiTableContainer-root makeStyles-tableContainer-177"
+            >
+              <table
+                class="MuiTable-root MuiTable-stickyHeader"
+              >
+                <thead
+                  class="MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-188 MuiTableCell-sizeSmall MuiTableCell-stickyHeader"
+                      scope="col"
+                    >
+                      Line
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-188 MuiTableCell-sizeSmall MuiTableCell-stickyHeader"
+                      scope="col"
+                    >
+                      Recipients Phone Number
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root"
+                >
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+                    >
+                      +34555666777
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="MuiTablePagination-root"
+            >
+              <div
+                class="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters"
+              >
+                <div
+                  class="MuiTablePagination-spacer"
+                />
+                <p
+                  class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+                >
+                  1-1 of 1
+                </p>
+                <div
+                  class="MuiTablePagination-actions"
+                >
+                  <button
+                    aria-label="Previous page"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+                    disabled=""
+                    tabindex="-1"
+                    title="Previous page"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <button
+                    aria-label="Next page"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+                    disabled=""
+                    tabindex="-1"
+                    title="Next page"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiAlert-root MuiAlert-standardWarning MuiPaper-elevation0"
+        role="alert"
+      >
+        <div
+          class="MuiAlert-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiAlert-message"
+        >
+          The time it takes to complete sending all messages depends on the number of recipients and the Twilio account CPS rate (Calls Per Second). Please notice that by default accounts have a 1 CPS rate. Contact Sales or Support to increase your CPS rate.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-254"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Discard
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+        style="text-align: right;"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          style="margin-right: 15px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Back
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          data-testid="send-notification"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Send Notification
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

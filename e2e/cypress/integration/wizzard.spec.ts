@@ -37,7 +37,7 @@ describe('Configure', () => {
   it('should not allow to go the next step if all fields are not fulfilled', () => {
     cy.findByTestId('select-id').parents('.MuiFormControl-root').click();
     cy.findByText(broadcast.from).click({ force: true });
-    cy.findByLabelText(/Broadcast Message/i).type(broadcast.message);
+    cy.findByLabelText(/Message/i).type(broadcast.message);
     cy.findByText(/Next/).parent().should('be.disabled');
   });
 

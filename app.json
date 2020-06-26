@@ -1,6 +1,6 @@
 {
   "name": "Twilio Voice Notifications Application",
-  "description": "This reference app built in ReactJS for the Web demonstrates how to leverage Twilio Programmable Voice and Twilio SDKs to create a voice notifications system to make calls to your customers to deliver time-sensitive messages.",
+  "description": "This reference app built in ReactJS for the Web demonstrates how to leverage Twilio Programmable Voice and Twilio SDKs to create a voice notification system to make calls to your customers to deliver time-sensitive messages.",
   "repository": "https://github.com/twilio/twilio-voice-notification-app",
   "logo": "https://cdn.worldvectorlogo.com/logos/twilio.svg",
   "image": "heroku/nodejs",

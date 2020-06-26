@@ -6,7 +6,7 @@
 [![twilio](https://circleci.com/gh/twilio/twilio-voice-notification-app.svg?style=shield&circle-token=e3810d25f5fcb423ef9ec6828490c2759956cb9b)](https://app.circleci.com/pipelines/github/twilio/twilio-voice-notification-app)
 
 ## About
-This web-based reference app built in ReactJS and demonstrates how to leverage [Twilio Programmable Voice](https://www.twilio.com/voice) and [Twilio SDKs](https://www.twilio.com/docs/libraries) to create a voice notification system to make calls to your customers to deliver time-sensitive messages. This reference app can be used as a starting point.,whether you are building a voice notification solution for Emergency Alerts, Appointment Reminders, or Sales & Marketing use cases. 
+This web-based reference app built in ReactJS and demonstrates how to leverage [Twilio Programmable Voice](https://www.twilio.com/voice) and [Twilio SDKs](https://www.twilio.com/docs/libraries) to create a voice notification system to make calls to your customers to deliver time-sensitive messages. This reference app can be used as a starting point, whether you are building a voice notification solution for Emergency Alerts, Appointment Reminders, or Sales & Marketing use cases. 
 
 Access to the source code should help you understand how to use the Twilio platform “building blocks” and Programmable Voice APIs to build an application for your own notification use case and accelerate your development. 
 

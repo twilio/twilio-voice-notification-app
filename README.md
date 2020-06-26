@@ -27,6 +27,7 @@ For a more detailed exploration of the technology involved, please refer to the 
 ## Features
 - Send voice notifications to up to 500 recipients (configurable) 
 - Read message to recipients by using the text-to-speech capabilities
+- Make a phone call to test the notification before sending to the complete list of recipients
 - Automatically detect invalid and duplicated recipients phone numbers
 - Track delivery progress of outbound calls in real-time
 - Performance reports available for download in JSON format
@@ -99,6 +100,7 @@ Please notice that some free plans might have limitations. We encourage you to r
 ### Twilio
 - Twilio imposes rate restrictions for outbound calls. The application will place calls using your Twilio account Calls Per Second rate (CPS). By default accounts currently have a 1 call per second rate. You can contact Sales or Support to increase your CPS rate. 
 - Twilio has API concurrency limits. If you send too many concurrent calls, Twilio might respond to your requests with [Error 429 - Too many requests](https://www.twilio.com/docs/api/errors/20429). Refer to this guide for [best practices for avoiding Error 429 responses](https://support.twilio.com/hc/en-us/articles/360044308153-Twilio-API-response-Error-429-Too-Many-Requests).
+- Twilio protects your account from fraud and abuse with [Voice Dialing Geo Permissions](https://support.twilio.com/hc/en-us/articles/223180228-International-Voice-Dialing-Geographic-Permissions-Geo-Permissions-and-How-They-Work) to only allow legitimate calls. Voice Dialing Geographic Permissions control which countries and subsets of phone numbers you can dial out to from your Twilio project. Please note that the destinations you need to call should be enabled. You can manage call destinations from Twilio Console in Voice Geographic Permission.
 
 ### Cloud
 #### Heroku free account

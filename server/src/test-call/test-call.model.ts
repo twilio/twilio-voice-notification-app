@@ -2,6 +2,7 @@ import { Broadcast } from '../broadcast/broadcast.model';
 
 import {
   Column,
+  DataType,
   ForeignKey,
   Model,
   PrimaryKey,
@@ -17,7 +18,7 @@ export class TestCall extends Model<TestCall> {
   to!: string;
   @Column
   from!: string;
-  @Column
+  @Column(DataType.TEXT)
   message!: string;
   @Column
   status!: string;

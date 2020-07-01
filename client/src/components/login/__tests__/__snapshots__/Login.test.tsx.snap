@@ -42,7 +42,7 @@ exports[`Login renders the page 1`] = `
               class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
               data-testid="passcode-input"
               id="passcode"
-              type="text"
+              type="password"
               value=""
             />
             <fieldset

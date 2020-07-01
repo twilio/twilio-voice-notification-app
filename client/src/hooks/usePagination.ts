@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { useRowsPerPageOptions } from '@/hooks/useRowsPerPageOptions';
 
 /**
@@ -29,6 +29,10 @@ export const usePagination = (data: any[]) => {
   const paginatedData = useMemo(() => {
     return data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
   }, [data, page, rowsPerPage]);
+
+  useEffect(() => {
+    setPage(0);
+  }, [data]);
 
   return {
     page,

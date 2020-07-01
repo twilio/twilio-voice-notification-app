@@ -89,6 +89,7 @@ export const Login = () => {
               onChange={onChangePassCode}
               value={passcode}
               error={hasFailed}
+              type="password"
               helperText={hasFailed && FEEDBACK_ERROR_MSG}
               InputProps={{
                 inputProps: {

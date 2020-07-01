@@ -38,4 +38,17 @@ describe('usePagination', () => {
 
     expect(result.current).toMatchSnapshot();
   });
+
+  test('page goes back to 0 every time data changes', () => {
+    let { result, rerender } = renderHook((data) => usePagination(data), {
+      initialProps: [...numbers],
+    });
+
+    act(() => {
+      result.current.handleChangePage(null, 1);
+      rerender([]);
+
+      expect(result.current.page).toBe(0);
+    });
+  });
 });

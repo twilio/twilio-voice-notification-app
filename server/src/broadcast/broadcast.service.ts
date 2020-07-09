@@ -5,7 +5,6 @@ import { AuthGuard } from '../guards/auth.guard';
 import { Call } from '../call/call.model';
 import { BroadcastMeta } from '../types/broadcast-meta';
 import { v4 as uuidv4 } from 'uuid';
-import * as VoiceResponse from 'twilio/lib/twiml/VoiceResponse';
 import { TwilioService } from '../twilio/twilio.service';
 import { CallInstance } from 'twilio/lib/rest/api/v2010/account/call';
 import { Logger } from '@nestjs/common';
@@ -26,14 +25,6 @@ export class BroadcastService {
     private callModel: typeof Call,
     private readonly twilioService: TwilioService,
   ) {}
-
-  private getTwimlMessage(message: string): string {
-    const twiml = new VoiceResponse();
-    twiml.pause({ length: 2 });
-    twiml.say(message);
-
-    return twiml.toString();
-  }
 
   async create(
     friendlyName: string,
@@ -65,8 +56,6 @@ export class BroadcastService {
     recipients: string[],
     statusCallback: string,
   ) {
-    const twiml = this.getTwimlMessage(message);
-
     const makeCalls = recipients.map((to) => {
       return new Promise(async (resolve, reject) => {
 
@@ -82,7 +71,7 @@ export class BroadcastService {
             statusCallback,
             to,
             from,
-            twiml,
+            message,
           ));
         } catch (error) {
           Logger.error(`There was an error creating a call for: ${to}. Error ${error.message}`);

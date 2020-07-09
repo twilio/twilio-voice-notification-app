@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { TestCall } from './test-call.model';
 import { InjectModel } from '@nestjs/sequelize';
 import { TestCallGateway } from './test-call.gateway';
-import { twiml as Twiml } from 'twilio';
 import { TwilioService } from '../twilio/twilio.service';
 
 @Injectable()
@@ -20,9 +19,6 @@ export class TestCallService {
     message: string,
     statusCallback: string,
   ): Promise<{ callSid: string }> {
-    const twiml = new Twiml.VoiceResponse();
-    twiml.say(message);
-
     const { callSid, status } = await this.twilioService.createCall(
       statusCallback,
       to,

@@ -62,7 +62,7 @@ export const Login = () => {
     if (passcodeParam) {
       setPasscode(passcodeParam);
     }
-  }, [location, setPasscode, onSubmit]);
+  }, [location, setPasscode]);
 
   return (
     <>

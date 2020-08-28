@@ -11,7 +11,7 @@
   "author": "twilio",
   "license": "Apache",
   "dependencies": {
-    "cypress": "^4.7.0",
+    "cypress": "^4.11.0",
     "cypress-file-upload": "^4.0.7",
     "junit-report-merger": "^0.0.6",
     "mocha": "^6.2.2",

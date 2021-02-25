@@ -15,15 +15,17 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nestjs/cli": "^7.5.0",
-    "@nestjs/common": "^7.0.0",
+    "@nestjs/common": "^7.6.5",
     "@nestjs/config": "^0.5.0",
     "@nestjs/core": "^7.0.0",
     "@nestjs/platform-express": "^7.0.0",
-    "@nestjs/platform-socket.io": "^7.1.0",
+    "@nestjs/platform-socket.io": "^7.6.6",
     "@nestjs/schematics": "^7.1.0",
     "@nestjs/sequelize": "^0.1.0",
     "@nestjs/serve-static": "^2.1.1",
@@ -39,7 +41,8 @@
     "sqlite3": "^4.2.0",
     "twilio": "^4.6.0",
     "url": "^0.11.0",
-    "uuid": "^8.1.0"
+    "uuid": "^8.1.0",
+    "snyk": "^1.460.0"
   },
   "devDependencies": {
     "@nestjs/testing": "^7.0.0",
@@ -74,5 +77,6 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "snyk": true
 }

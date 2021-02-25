@@ -135,7 +135,7 @@ Please notice that some free plans might have limitations. We encourage you to r
 
 ### Twilio
 
-- Twilio imposes rate restrictions for outbound calls. The application will place calls using your Twilio account Calls Per Second rate (CPS). By default accounts currently have a 1 call per second rate. You can contact Sales or Support to increase your CPS rate.
+- The time it takes to complete delivering all the messages depends on the number of recipients, as well as, the Calls Per Second (CPS) setting on your Twilio account. Twilio accounts default to throttling 1 Call Per Second. You can increase your account's CPS threshold under your [Voice Settings in the console](https://www.twilio.com/console/voice/settings)
 - Twilio has API concurrency limits. If you send too many concurrent calls, Twilio might respond to your requests with [Error 429 - Too many requests](https://www.twilio.com/docs/api/errors/20429). Refer to this guide for [best practices for avoiding Error 429 responses](https://support.twilio.com/hc/en-us/articles/360044308153-Twilio-API-response-Error-429-Too-Many-Requests).
 - Twilio protects your account from fraud and abuse with [Voice Dialing Geo Permissions](https://support.twilio.com/hc/en-us/articles/223180228-International-Voice-Dialing-Geographic-Permissions-Geo-Permissions-and-How-They-Work) to allow only legitimate calls. Voice Dialing Geographic Permissions control which countries and subsets of phone numbers you are able to dial out to from your Twilio project. Please note that the destinations you need to call should be enabled. You can manage call destinations from Twilio Console [Voice Geographic Permission](https://www.twilio.com/console/voice/calls/geo-permissions).
 

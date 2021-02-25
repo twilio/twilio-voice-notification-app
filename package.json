@@ -99,7 +99,7 @@
     "socket.io-client": "^2.3.0",
     "start-server-and-test": "^1.11.0",
     "style-loader": "0.23.1",
-    "terser-webpack-plugin": "2.3.5",
+    "terser-webpack-plugin": "2.3.6",
     "ts-pnp": "1.1.6",
     "twilio": "3.43.0",
     "url-loader": "2.3.0",

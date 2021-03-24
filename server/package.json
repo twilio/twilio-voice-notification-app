@@ -42,7 +42,7 @@
     "twilio": "^4.6.0",
     "url": "^0.11.0",
     "uuid": "^8.1.0",
-    "snyk": "^1.460.0"
+    "snyk": "^1.465.0"
   },
   "devDependencies": {
     "@nestjs/testing": "^7.0.0",

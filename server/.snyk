@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -16,3 +16,6 @@ patch:
         patched: '2021-02-25T15:01:33.825Z'
     - twilio > request > hawk > cryptiles > boom > hoek:
         patched: '2021-02-25T15:01:33.825Z'
+  'npm:moment:20170905':
+    - twilio > moment:
+        patched: '2021-03-31T08:09:17.469Z'

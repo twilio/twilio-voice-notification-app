@@ -11,7 +11,7 @@ import {
 } from 'sequelize-typescript';
 
 @Table
-export class Call extends Model<Call> {
+export class Call extends Model {
   @PrimaryKey
   @Column
   callSid!: string;
@@ -28,9 +28,8 @@ export class Call extends Model<Call> {
 
   @AfterUpdate
   static async updateBroadcastIfNeeded(instance: Call) {
-
     // This behaves like a Trigger.
-    // Everytime a Call is updateded, it determines whether or not
+    // Everytime a Call is updated, it determines whether or not
     // it was the last pending call and if so, it marks the Notification as completed.
 
     const { broadcastId } = instance;
@@ -44,14 +43,13 @@ export class Call extends Model<Call> {
     });
 
     if (total === completed) {
-      Broadcast
-        .update(
-          {
-            completed: true,
-            endDate: new Date(),
-          },
-          { where: { broadcastId }}
-          );
+      Broadcast.update(
+        {
+          completed: true,
+          endDate: new Date(),
+        },
+        { where: { broadcastId } },
+      );
     }
   }
 }

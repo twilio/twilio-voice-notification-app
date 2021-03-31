@@ -89,7 +89,6 @@ export class BroadcastsController {
     pageCount: number;
     meta: BroadcastMeta;
   }> {
-
     // Paginated list of recipients
     const {
       rows,

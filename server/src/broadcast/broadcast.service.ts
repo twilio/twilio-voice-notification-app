@@ -56,9 +56,8 @@ export class BroadcastService {
     recipients: string[],
     statusCallback: string,
   ) {
-    const makeCalls = recipients.map((to) => {
-      return new Promise(async (resolve, reject) => {
-
+    const makeCalls = recipients.map(to => {
+      return new Promise(async resolve => {
         let callSid, status;
 
         try {
@@ -74,7 +73,9 @@ export class BroadcastService {
             message,
           ));
         } catch (error) {
-          Logger.error(`There was an error creating a call for: ${to}. Error ${error.message}`);
+          Logger.error(
+            `There was an error creating a call for: ${to}. Error ${error.message}`,
+          );
         }
 
         // if something fails during call creation, we still want to save the call instance
@@ -168,7 +169,7 @@ export class BroadcastService {
       id,
     );
 
-    const cancelCalls: Promise<CallInstance>[] = inProgressCalls.map((call) => {
+    const cancelCalls: Promise<CallInstance>[] = inProgressCalls.map(call => {
       const { callSid } = call;
       return this.twilioService.cancelCall(callSid);
     });
@@ -179,7 +180,10 @@ export class BroadcastService {
       where: { broadcastId: id },
     });
 
-    this.callModel.update({ status: CallStatus.CANCELED }, { where: { status: ProgressionStatus }})
+    this.callModel.update(
+      { status: CallStatus.CANCELED },
+      { where: { status: ProgressionStatus } },
+    );
 
     return broadcast.update({ canceled: true });
   }
@@ -201,7 +205,7 @@ export class BroadcastService {
 
     // Total number of calls grouped by status, in the notification.
     const statusesCount = await Promise.all(
-      Object.values(CallStatus).map(async (status) => {
+      Object.values(CallStatus).map(async status => {
         const count = await this.callModel.count({
           where: { broadcastId: id, status },
         });

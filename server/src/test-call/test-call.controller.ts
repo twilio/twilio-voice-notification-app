@@ -44,7 +44,12 @@ export class TestCallController {
         pathname: '/api/test-call/callback',
       });
 
-      return await this.testCallService.create(to, from, message, statusCallback);
+      return await this.testCallService.create(
+        to,
+        from,
+        message,
+        statusCallback,
+      );
     } catch (error) {
       throw new HttpException(
         `Error: ${error.message}`,

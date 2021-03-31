@@ -29,14 +29,16 @@ export class SharedModule {
     ];
 
     if (isProduction) {
-      imports.push(ServeStaticModule.forRoot({
-        rootPath: path.resolve(process.cwd(), '../build'),
-      }));
+      imports.push(
+        ServeStaticModule.forRoot({
+          rootPath: path.resolve(process.cwd(), '../build'),
+        }),
+      );
     }
 
     return {
       module: SharedModule,
-      imports
+      imports,
     };
   }
 }

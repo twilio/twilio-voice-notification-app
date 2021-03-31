@@ -29,6 +29,12 @@ const shouldServeStaticContent = process.env.NODE_ENV === 'production';
           dialect: 'postgres',
           ...database,
           synchronize: true,
+          dialectOptions: {
+            ssl: {
+              rejectUnauthorized: false
+            }
+          },
+          ssl: true,
           models: [TestCall, Call, Broadcast],
         };
       },

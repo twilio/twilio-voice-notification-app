@@ -1,4 +1,4 @@
-import { v4 } from 'uuid'
+import { v4 } from 'uuid';
 import { Module, Global } from '@nestjs/common';
 import { TwilioService } from '../../src/twilio/twilio.service';
 
@@ -9,24 +9,26 @@ const mockedTwilioService = {
   async createCall() {
     return Promise.resolve({
       callSid: v4(),
-      status: 'initated'
+      status: 'initated',
     });
   },
   async getPhoneNumbers() {
-    return Promise.resolve([{
-      capabilities: {
-        voice: true,
-        sms: true
+    return Promise.resolve([
+      {
+        capabilities: {
+          voice: true,
+          sms: true,
+        },
+        phoneNumber: '+35625211106',
       },
-      phoneNumber: '+35625211106'
-    },
-    {
-      capabilities: {
-        voice: true,
-        sms: true
+      {
+        capabilities: {
+          voice: true,
+          sms: true,
+        },
+        phoneNumber: '+35625211107',
       },
-      phoneNumber: '+35625211107'
-    }]);
+    ]);
   },
 };
 

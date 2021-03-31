@@ -1,7 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { Twilio, twiml as Twiml } from 'twilio';
 import { ConfigService } from '@nestjs/config';
-import { CALL_CALLBACK_METHOD, CALL_STATUS_EVENTS, ENV_VAR } from '../constants';
+import {
+  CALL_CALLBACK_METHOD,
+  CALL_STATUS_EVENTS,
+  ENV_VAR,
+} from '../constants';
 import { IncomingPhoneNumberInstance } from 'twilio/lib/rest/api/v2010/account/incomingPhoneNumber';
 import { CallStatus } from '../types/call-status';
 
@@ -46,7 +50,7 @@ export class TwilioService {
     return { callSid, status };
   }
 
-  async cancelCall(callSid: string, ) {
+  async cancelCall(callSid: string) {
     return await this.client
       .calls(callSid)
       .update({ status: CallStatus.CANCELED });

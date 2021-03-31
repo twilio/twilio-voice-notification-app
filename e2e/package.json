@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "^6.0.0",
-    "cypress-dotenv": "^1.2.1"
+    "cypress-dotenv": "^1.2.1",
+    "snyk": "^1.518.0"
   }
 }

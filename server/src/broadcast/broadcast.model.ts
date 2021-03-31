@@ -10,7 +10,7 @@ import {
 } from 'sequelize-typescript';
 
 @Table
-export class Broadcast extends Model<Broadcast> {
+export class Broadcast extends Model {
   @PrimaryKey
   @Column
   public broadcastId!: string;
@@ -28,12 +28,12 @@ export class Broadcast extends Model<Broadcast> {
   public recipients!: Call[];
   @Column({
     type: DataType.BOOLEAN,
-    defaultValue: false
+    defaultValue: false,
   })
   public canceled!: boolean;
   @Column({
     type: DataType.BOOLEAN,
-    defaultValue: false
+    defaultValue: false,
   })
   public completed: boolean;
   @Column(DataType.DATE)

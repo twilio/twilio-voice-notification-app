@@ -10,7 +10,7 @@ import {
 } from 'sequelize-typescript';
 
 @Table
-export class TestCall extends Model<TestCall> {
+export class TestCall extends Model {
   @PrimaryKey
   @Column
   callSid!: string;

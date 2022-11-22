@@ -25,7 +25,7 @@
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
-    "@nestjs/platform-socket.io": "^7.6.15",
+    "@nestjs/platform-socket.io": "^8.4.5",
     "@nestjs/schematics": "^7.3.1",
     "@nestjs/sequelize": "^0.2.0",
     "@nestjs/serve-static": "^2.1.4",

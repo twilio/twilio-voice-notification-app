@@ -102,7 +102,7 @@
     "style-loader": "^0.23.1",
     "terser-webpack-plugin": "2.3.6",
     "ts-pnp": "1.1.6",
-    "twilio": "^3.59.0",
+    "twilio": "^4.0.0",
     "url-loader": "^2.3.0",
     "use-http": "1.0.2",
     "webpack": "4.42.0",

@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@nestjs/cli": "^7.6.0",
-    "@nestjs/common": "^7.6.15",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
@@ -38,9 +38,9 @@
     "rxjs": "^6.5.4",
     "sequelize": "^6.6.2",
     "sequelize-typescript": "^2.1.0",
-    "snyk": "^1.518.0",
+    "snyk": "^1.996.0",
     "sqlite3": "^4.2.0",
-    "twilio": "^3.59.0",
+    "twilio": "^4.19.3",
     "url": "^0.11.0",
     "uuid": "^8.1.0"
   },
